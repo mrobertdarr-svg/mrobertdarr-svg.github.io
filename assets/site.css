@@ -205,9 +205,22 @@ a {
   margin-top: 0;
 }
 
+.content-panel h3 {
+  margin: 1.25rem 0 0.65rem;
+  font-size: 1.05rem;
+  color: var(--accent-2);
+  letter-spacing: 0.02em;
+}
+
 .content-panel ul,
 .content-panel ol {
   padding-left: 22px;
+}
+
+.content-panel p:first-child,
+.content-panel ul:first-child,
+.content-panel ol:first-child {
+  margin-top: 0;
 }
 
 .muted {
